@@ -1,0 +1,21 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+
+  <title>About Me</title>
+
+  <title>Mark's Family and etc</title>
+  <meta name="description" content="About Mark.">
+
+  <meta property="og:title" content="About Me">
+
+  <img src=1-HTML-CSS-JavaScript/images/2022-01-08 08.44.47.jpg>
+</head>
+
+<body>
+  <!--Should I put the image here?-->
+</body>
+</html>

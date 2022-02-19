@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+<head>
+    <style>
+        h1{color: blue;
+           font-family: verdana,Arial, Helvetica, sans-serif;
+           font-size: 300%;}
+           legend {
+               background: purple;
+               border-radius: 10px;
+               color: white;
+               padding: 12px;
+           }
+           fieldset {
+               background: lavender;
+               border: 10px solid darkblue;
+               border-radius: 20px;
+               margin-bottom: 10px;
+               width: 720px;
+           }
+           div {
+               margin: 10px;
+
+           }
+           div:hover {
+  background-color: blue;
+}
+           label {display: inline-block;text-align: right;vertical-align: top;width: 200px;}
+           input[type="radio"]+label, input[type="checkbox"]+label {width: auto;}
+           range-caption {background: darkcyan; color:white;padding: 6px;text-align: center;}
+           a[type="submit"] {background: darkcyan; border-radius: 10px color white; font-size: 20px; padding: 12px;}
+
+        </style>
+  <title>Enter Your Details For Our Dating Website</title>
+</head> 
+<body>
+    <h1>Enter Your Details for Our Dating Website</h1>
+    <form action="https://us-central1-nucamp-production.cloudfunctions.net/post/formdata" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Your Details</legend>
+                <div>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Your full name">
+</div>
+<div>
+    <label for="name">Gender</label>
+    <input type="radio" name="gender" id="woman" width="auto">
+    <label for="woman">Woman</label>
+    <input type="radio" name="gender" id="man" width="auto">
+    <label for="man">Man</label>
+</div>
+        </fieldset>
+  
+    <fieldset>
+        <legend>Your Face</legend>
+        <div>
+        <label for="avatar"></label>
+        <input type="text" name="Upload Your Image" id="Image">
+        <input type="file" name="avatar" id="avatar">
+    </div>
+    <div>
+        <label for="name">Age</label>
+        <input type="number" id="age" name="age">
+    </div>
+    <div>
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob">
+    </div>
+    <div>
+        <label for="color">Favorite Color</label>
+        <input type="color" id="color" name="color">
+    </div>
+    <div>
+        <label for="Country">Country:</label>
+        <select name="Countries" id="Country">
+        <option value="Select your country">Select Your Country</option>
+        <option value="usa">USA</option>
+        <option value="japan">Japan</option>
+        <option value="france">France</option>
+        <option value="libya">Libya</option>
+    </select>
+    </div>
+    <div>
+        <label for="salary">Salary</label>
+        <input class="range-caption" name="Poor">
+        <input type="range" id="salary" name="salary" min="0" max="100" value="50">
+        <input class="range-caption" name="Rich">
+        <span></span>
+    </div>
+    <p>Image Preview</p>
+    <img src="" alt="" width="500">
+    <input type="text" name="" id="preview">
+    </fieldset>
+    <fieldset>
+        <legend>Your Contact Information</legend>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email"required>
+        </div>
+        <div>
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone">
+        </div>
+        <div>
+            <label for="address">Address</label>
+            <textarea name="address" id="address" cols="40" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="Contact Methods">Contact Method(s)</label>
+            <input type="checkbox" name="contact" id="emailCheckbox" value="email">
+            <label for="emailCheckbox">Email</label>
+            <input type="checkbox" name="contact" id="phoneCheckbox" value="phone">
+            <label for="phoneCheckbox">Phone</label>
+        </div>
+    </fieldset>
+    <div>
+        <input type="submit">
+    </div>
+</form>
+<script src="/Users/mark/Desktop/NucampFolder/1-HTML-CSS-JavaScript/images/2022-01-08 08.44.47.jpg"></script>
+</body>
+</html>
