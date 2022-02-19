@@ -24,9 +24,7 @@
             if ((isMatinee === 'yes') || (isMatinee === 'y')) {
                 cost = cost - MATINEE_DISCOUNT;
             }
-
-        }
-        function getBaseTicketCost(age) {
+            function getBaseTicketCost(age) {
             if ((age <=12) || (age >=65)) {
                 return CHILD_AND_SENIOR_TICKET_COST;
             }
