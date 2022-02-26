@@ -31,7 +31,7 @@ footer {
     min-height: 200px;
 }
 
-.row-content      {
+.row-content {
     padding: 50px 0;
     border-bottom: 1px ridge;
     min-height: 200px;
@@ -43,6 +43,7 @@ footer {
 .navbar {
     background-color: #901CAD;
 }
+
 .jumbotron {
     margin: 0;
 }
