@@ -32,12 +32,12 @@ Again, nice work! Feel free to reach out for any clarifications needed. -->
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
-
+    <link rel="stylesheet" href="../css_for_bootstrap_class/styles.css">
     <!-- Additional CSS must be placed after Bootstrap CSS -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans"/>
-    <link rel="stylesheet" href="styles2.css"/>
+    <link rel="stylesheet" href="../css_for_bootstrap_class/styles2.css"/>
     <title>NuCamp: A Better Way To Camp</title>
+
 
 </head>
 
@@ -57,14 +57,18 @@ Again, nice work! Feel free to reach out for any clarifications needed. -->
 <div class="container">
     <div class="row">
         <div class="col">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active">About</li>
+            </ol>
             <h2>About Us</h2>
 
             <hr/>
         </div>
     </div>
 
-        <div class="row row-content">
-            <div class="col-sm-6">
+    <div class="row row-content">
+        <div class="col-sm-6">
             <h3>Our Mission</h3>
             <p>We present a curated database of the best campsites in the vast woods and backcountry of the World Wide
                 Web Wilderness. We increase access to adventure for the public while promoting safe and respectful use
@@ -74,21 +78,25 @@ Again, nice work! Feel free to reach out for any clarifications needed. -->
         </div>
     </div>
 
-        <div class="row row-content">
-            <div>
-                <h3>Community Partners</h3>
-                <h4>Bootstrap Outfitters <small>Outdoor Gear Specialists</small></h4>
-                <p  class="col-sm-6 d-none d-sm-block" >Bootstrap Outfitters supplies you with the gear you need at prices you can't beat.</p>
-                <h4>Git Out Expeditions <small>Group Adventure Expeditions</small></h4>
-                <p  class="col-sm-6 d-none d-sm-block" >Join Git Out Expeditions to explore new horizons with a group of other adventurers!</p>
-                <h4>Mongo Fly Shop <small>Your Neighborhood Fly Fishing Shop</small></h4>
-                <p  class="col-sm-6 d-none d-sm-block" >Need a new fishing pole, a tacklebox, or flies of all kinds? Stop by Mongo Fly Shop.</p>
-                <h4>Node Outdoor Apparel <small>Outdoor Clothes & Shoes</small></h4>
-                <p  class="col-sm-6 d-none d-sm-block" >From polar fleeces to swimsuits, hiking boots to waders, a visit to Node will be sure to get you
-                    covered.</p>
-            </div>
+    <div class="row row-content">
+        <div>
+            <h3>Community Partners</h3>
+            <h4>Bootstrap Outfitters <small>Outdoor Gear Specialists</small></h4>
+            <p class="col-sm-6 d-none d-sm-block">Bootstrap Outfitters supplies you with the gear you need at prices you
+                can't beat.</p>
+            <h4>Git Out Expeditions <small>Group Adventure Expeditions</small></h4>
+            <p class="col-sm-6 d-none d-sm-block">Join Git Out Expeditions to explore new horizons with a group of other
+                adventurers!</p>
+            <h4>Mongo Fly Shop <small>Your Neighborhood Fly Fishing Shop</small></h4>
+            <p class="col-sm-6 d-none d-sm-block">Need a new fishing pole, a tacklebox, or flies of all kinds? Stop by
+                Mongo Fly Shop.</p>
+            <h4>Node Outdoor Apparel <small>Outdoor Clothes & Shoes</small></h4>
+            <p class="col-sm-6 d-none d-sm-block">From polar fleeces to swimsuits, hiking boots to waders, a visit to
+                Node will be sure to get you
+                covered.</p>
         </div>
     </div>
+</div>
 
 <footer>
     <div class="container">
@@ -96,10 +104,16 @@ Again, nice work! Feel free to reach out for any clarifications needed. -->
             <div class="col-4 col-sm-2 offset-1">
                 <h5>Links</h5>
                 <ul class="list-unstyled">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="http://localhost:63342/NucampFolder/2-Bootstrap/nucampsite/2-Bootstrap/aboutus.html?_ijt=9p01l6iv114luc23kft3ke8u5l&_ij_reload=RELOAD_ON_SAVE">About</a></li>
-                    <li><a href="http://localhost:63342/NucampFolder/2-Bootstrap/nucampsite/2-Bootstrap/aboutus.html?_ijt=9p01l6iv114luc23kft3ke8u5l&_ij_reload=RELOAD_ON_SAVE">Sites</a></li>
-                    <li><a href="http://localhost:63342/NucampFolder/2-Bootstrap/nucampsite/2-Bootstrap/aboutus.html?_ijt=9p01l6iv114luc23kft3ke8u5l&_ij_reload=RELOAD_ON_SAVE">Contact</a></li>
+                    <li><a href="../../index.html">Home</a></li>
+                    <li>
+                        <a href="http://localhost:63342/NucampFolder/2-Bootstrap/nucampsite/2-Bootstrap/aboutus.html?_ijt=9p01l6iv114luc23kft3ke8u5l&_ij_reload=RELOAD_ON_SAVE">About</a>
+                    </li>
+                    <li>
+                        <a href="http://localhost:63342/NucampFolder/2-Bootstrap/nucampsite/2-Bootstrap/aboutus.html?_ijt=9p01l6iv114luc23kft3ke8u5l&_ij_reload=RELOAD_ON_SAVE">Sites</a>
+                    </li>
+                    <li>
+                        <a href="http://localhost:63342/NucampFolder/2-Bootstrap/nucampsite/2-Bootstrap/aboutus.html?_ijt=9p01l6iv114luc23kft3ke8u5l&_ij_reload=RELOAD_ON_SAVE">Contact</a>
+                    </li>
                 </ul>
             </div>
             <div class="col-6 col-sm-5 text-center">
