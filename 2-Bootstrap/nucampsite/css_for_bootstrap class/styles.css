@@ -1,3 +1,11 @@
+/*Outline Trick, Keep this in for outline of all elements CSS (-Mark)*/
+*  {
+    /*outline: 1px dashed red;*/
+    /*outline: 1px dashed lime;*/
+
+    /*background-color: lime*/
+}
+
 body {
     font-family: "Open Sans", sans-serif;
 }
