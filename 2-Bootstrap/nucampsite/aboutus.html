@@ -39,8 +39,7 @@ Again, nice work! Feel free to reach out for any clarifications needed. -->
     <link rel="stylesheet" href="css_for_bootstrap class/styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans"/>
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css"/>
 
 
     <title>NuCamp: A Better Way To Camp</title>
@@ -54,7 +53,7 @@ Again, nice work! Feel free to reach out for any clarifications needed. -->
     <div class="container">
         <div class="row">
             <div class="col-4 col-sm-3 col-md-2 align-self-center">
-                <img src="img/logo.png" class="img-fluid" />
+                <img src="img/logo.png" class="img-fluid"/>
             </div>
             <div class="col">
                 <h1>NuCamp</h1>
@@ -86,13 +85,14 @@ Again, nice work! Feel free to reach out for any clarifications needed. -->
 
 <div class="container">
     <div class="row">
-<!--        TODO: Review this, do we need another tiny logo to go back home? is it repeating yourself if we have breadcrumbs?-->
-<!--        <a class="navbar-brand" href="#"><img src="img/logo.png" height="30" width="30" /></a>-->
-<!--        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">-->
-<!--        </button>-->
+        <!--        TODO: Review this, do we need another tiny logo to go back home? is it repeating yourself if we have breadcrumbs?-->
+        <!--        <a class="navbar-brand" href="#"><img src="img/logo.png" height="30" width="30" /></a>-->
+        <!--        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">-->
+        <!--        </button>-->
         <div class="col">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i>Home</a>
+                <li class="breadcrumb-item"><a class="nav-link" href="index.html"><i
+                        class="fa fa-home fa-lg"></i>Home</a>
                 </li>
                 <li class="breadcrumb-item active">About</li>
             </ol>
@@ -105,7 +105,11 @@ Again, nice work! Feel free to reach out for any clarifications needed. -->
     <div class="row row-content">
         <div class="col-sm-6">
             <h3>Our Mission</h3>
-            <p>We present a curated database of the best campsites in the vast woods and backcountry of the World Wide Web Wilderness. We increase access to adventure for the public while promoting safe and respectful use of resources. The expert wilderness trekkers on our staff personally verify each campsite to make sure that they are up to our standards. We also present a platform for campers to share reviews on campsites they have visited with  each other.</p>
+            <p>We present a curated database of the best campsites in the vast woods and backcountry of the World Wide
+                Web Wilderness. We increase access to adventure for the public while promoting safe and respectful use
+                of resources. The expert wilderness trekkers on our staff personally verify each campsite to make sure
+                that they are up to our standards. We also present a platform for campers to share reviews on campsites
+                they have visited with each other.</p>
         </div>
         <div class="col-sm-6">
             <div class="card">
@@ -127,7 +131,8 @@ Again, nice work! Feel free to reach out for any clarifications needed. -->
         <div class="col">
             <div class="card bg-light mt-3">
                 <blockquote class="blockquote card-body">
-                    <p class="mb-0">I will not follow where the path may lead, but I will go where there is no path, and I will leave a trail.</p>
+                    <p class="mb-0">I will not follow where the path may lead, but I will go where there is no path, and
+                        I will leave a trail.</p>
                     <footer class="blockquote-footer">Muriel Strode,
                         <cite title="Source Title">"Wind-Wafted Wild Flowers" -
                             The Open Court, 1903
@@ -137,27 +142,69 @@ Again, nice work! Feel free to reach out for any clarifications needed. -->
             </div>
         </div>
     </div>
-
     <div class="row row-content">
-        <div>
+        <div class="col">
             <h3>Community Partners</h3>
-            <h4>Bootstrap Outfitters <small>Outdoor Gear Specialists</small></h4>
-            <p class="col-sm-6 d-none d-sm-block">Bootstrap Outfitters supplies you with the gear you need at prices you
-                can't beat.</p>
-            <h4>Git Out Expeditions <small>Group Adventure Expeditions</small></h4>
-            <p class="col-sm-6 d-none d-sm-block">Join Git Out Expeditions to explore new horizons with a group of other
-                adventurers!</p>
-            <h4>Mongo Fly Shop <small>Your Neighborhood Fly Fishing Shop</small></h4>
-            <p class="col-sm-6 d-none d-sm-block">Need a new fishing pole, a tacklebox, or flies of all kinds? Stop by
-                Mongo Fly Shop.</p>
-            <h4>Node Outdoor Apparel <small>Outdoor Clothes & Shoes</small></h4>
-            <p class="col-sm-6 d-none d-sm-block">From polar fleeces to swimsuits, hiking boots to waders, a visit to
-                Node will be sure to get you
-                covered.</p>
+            <ul class="nav nav-tabs">
+                <li class="nav-item "><a class="nav-link active" href="#bootstrap" role="tab" data-toggle="tab">Bootstrap
+                    Outfitters</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#git" role="tab" data-toggle="tab">Git Out Expeditions</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#mongo" role="tab" data-toggle="tab">Mongo Fly Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#node" role="tab" data-toggle="tab">Node Outdoor Apparel</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane fade show active" id="bootstrap">
+                    <h4>Bootstrap Outfitters <small>Outdoor Gear Specialists</small></h4>
+                    <p class="d-none d-sm-block">Bootstrap Outfitters supplies you with the gear you need at prices you
+                        can't beat.</p>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="git">
+                    <h4>Git Out Expeditions <small>Group Adventure Expeditions</small></h4>
+                    <p class="d-none d-sm-block">Join Git Out Expeditions to explore new horizons with a group of other
+                        adventurers!</p>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="mongo">
+                    <h4>Mongo Fly Shop <small>Your Neighborhood Fly Fishing Shop.</small></h4>
+                    <p class="d-none d-sm-block">Need a new fishing pole, a tacklebox, or flies of all kinds? Stop by
+                        Mongo Fly Shop.</p>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="node">
+                    <h4>Node Outdoor Apparel <small>Outdoor Clothes & Shoes</small></h4>
+                    <p class="d-none d-sm-block">From polar fleeces to swimsuits, hiking boots to waders, a visit to
+                        Node will be sure to get you covered.</p>
+                </div>
+            </div>
         </div>
     </div>
 </div>
+<!--TODO: Review this new tabs bootstrapped-->
 
+<h3>Community Partners</h3>
+
+<ul class="nav nav-tabs">
+    <li class="nav-item "><a class="nav-link active" href="#bootstrap" role="tab" data-toggle="tab">Bootstrap
+        Outfitters</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#git" role="tab" data-toggle="tab">Git Out Expeditions</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#mongo" role="tab" data-toggle="tab">Mongo Fly Shop</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#node" role="tab" data-toggle="tab">Node Outdoor Apparel</a>
+    </li>
+</ul>
+
+
+<!--TODO: Above is new tabs menu-->
 <footer class="site-footer">
     <div class="container">
         <div class="row">
@@ -199,16 +246,16 @@ Again, nice work! Feel free to reach out for any clarifications needed. -->
                 </div>
             </div>
             <!--            <div class="col-4 col-sm-2 offset-1">-->
-<!--                <h5>Links</h5>-->
-<!--                <ul class="list-unstyled">-->
-<!--                    <li><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home</a></li>-->
-<!--                  -->
-<!--                    <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-info fa-lg"></i> About</a>-->
-<!--                    </li>-->
-<!--                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Sites</a></li>-->
-<!--                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-address-card fa-lg"></i> Contact</a>-->
-<!--                </ul>-->
-<!--            </div>-->
+            <!--                <h5>Links</h5>-->
+            <!--                <ul class="list-unstyled">-->
+            <!--                    <li><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home</a></li>-->
+            <!--                  -->
+            <!--                    <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-info fa-lg"></i> About</a>-->
+            <!--                    </li>-->
+            <!--                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Sites</a></li>-->
+            <!--                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-address-card fa-lg"></i> Contact</a>-->
+            <!--                </ul>-->
+            <!--            </div>-->
             <div class="col-4 col-sm-2 offset-1">
                 <h5>Links</h5>
                 <ul class="list-unstyled">
@@ -220,14 +267,16 @@ Again, nice work! Feel free to reach out for any clarifications needed. -->
             </div>
             <div class="col-6 col-sm-5 text-center">
                 <h5>Social</h5>
-                <a class="btn btn-social-icon btn-instagram" href="https://instagram.com/"><i class="fa fa-instagram"></i></a>
+                <a class="btn btn-social-icon btn-instagram" href="https://instagram.com/"><i
+                        class="fa fa-instagram"></i></a>
                 <a class="btn btn-social-icon btn-facebook" href="https://facebook.com/"><i class="fa fa-facebook"></i></a>
                 <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
                 <a class="btn btn-social-icon btn-google" href="https://youtube.com/"><i class="fa fa-youtube"></i></a>
             </div>
             <div class="col-sm-4 text-center">
-                <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i> 1-206-555-1234</a><br />
-                <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"><i class="fa fa-envelope-o"></i> campsites@nucamp.co</a>
+                <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i> 1-206-555-1234</a><br/>
+                <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"><i class="fa fa-envelope-o"></i>
+                    campsites@nucamp.co</a>
             </div>
         </div>
     </div>

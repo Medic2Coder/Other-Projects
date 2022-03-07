@@ -1,11 +1,15 @@
 /*Outline Trick, Keep this in for outline of all elements CSS (-Mark)*/
-*  {
+/**  {*/
     /*outline: 1px dashed red;*/
     /*outline: 1px dashed lime;*/
 
-    /*background-color: lime*/
+/*    background-color: lime*/
+/*}*/
+.tab-content {
+    border: 1px solid #DDD;
+    border-top: none;
+    padding: 10px;
 }
-
 body {
     font-family: "Open Sans", sans-serif;
 }
