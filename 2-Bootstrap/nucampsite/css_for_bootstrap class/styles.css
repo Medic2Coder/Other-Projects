@@ -81,3 +81,13 @@ header h2 {
 /*.somethingnew {*/
 /*    margin: 40px;*/
 /*}*/
+
+
+/*TODO: Remember that the a is the alpha channel, and e.g., this 0.5 is half opacity*/
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+    border: solid #5637DD;
+}
