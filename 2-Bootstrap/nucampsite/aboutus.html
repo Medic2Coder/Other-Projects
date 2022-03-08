@@ -1,31 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--TODO: Review notes from Kellen-->
-<!--Nice work! Good demonstration of ability to navigate the Bootstrap framework.
-
-
-
-A couple points:
-
-
-
--Notice that you have a duplicate <title> tag on line 17, this can be removed
-
--On line 34, in the row class, there is no need for "new"
-
--Line 35: while it's not a mistake, there is no need to specify col-sm-12, since by default, a column will fill the 12 spaces of width available. Your code will work just fine, though for simplicity you can just write "col"
-
--Line 53: again, not technically a mistake, but you don't necessarily need to have a new container here, since we're already in a container, and the code contained here will correctly add a new row that functions properly. Generally it is best practice to avoid nesting containers in other containers unless needed.
-
--Line 55: you added the "d-none" and "d-sm-block" classes to the col div, however, they shouldn't be here. They should be in the following paragraph tags (ie <p class="d-none d-sm-block">Text here</p>).
-
-
-
-Also, there should be script links after the footer to jquery, popper, and boostrap. I see you attached your .css file, this might have been intentional, however, you should also attach your index.html page for this assignment. In this page, you previously added the script links for the scripts I mentioned in that page- go ahead and repeat that process here on the aboutus.html page and you should be good.
-
-
-
-Again, nice work! Feel free to reach out for any clarifications needed. -->
 <head>
     <!-- Required meta tags always come first -->
     <meta charset="utf-8"/>
@@ -43,17 +17,14 @@ Again, nice work! Feel free to reach out for any clarifications needed. -->
 
 
     <title>NuCamp: A Better Way To Camp</title>
-
-
 </head>
 
 <body>
-
 <header class="jumbotron jumbotron-fluid">
     <div class="container">
         <div class="row">
             <div class="col-4 col-sm-3 col-md-2 align-self-center">
-                <img src="img/logo.png" class="img-fluid"/>
+                <img src="img/logo.png" class="img-fluid" alt="logo for nucamp coding camp"/>
             </div>
             <div class="col">
                 <h1>NuCamp</h1>
@@ -62,26 +33,6 @@ Again, nice work! Feel free to reach out for any clarifications needed. -->
         </div>
     </div>
 </header>
-
-<!--<nav class="navbar navbar-expand-sm navbar-dark sticky-top">-->
-<!--    <div class="container">-->
-<!--        <a class="navbar-brand" href="#"><img src="img/logo.png" height="30" width="30" /></a>-->
-<!--        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">            <span class="navbar-toggler-icon"></span>-->
-<!--        </button>-->
-<!--        &lt;!&ndash;   The creators of Font-Awesome prefer to use <i> for brevity, but <span> is more semantically correct.     &ndash;&gt;-->
-<!--        <div class="collapse navbar-collapse" id="nucampNavbar">-->
-<!--            <ul class="navbar-nav">-->
-<!--                <li class="nav-item active"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i> Home</a></li>-->
-<!--                <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-info fa-lg"></i> About</a>-->
-<!--                </li>-->
-<!--                <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Sites</a></li>-->
-<!--                <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i> Contact</a>-->
-<!--                </li>-->
-<!--            </ul>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</nav>-->
-
 
 <div class="container">
     <div class="row">
@@ -97,11 +48,9 @@ Again, nice work! Feel free to reach out for any clarifications needed. -->
                 <li class="breadcrumb-item active">About</li>
             </ol>
             <h2>About Us</h2>
-
             <hr/>
         </div>
     </div>
-
     <div class="row row-content">
         <div class="col-sm-6">
             <h3>Our Mission</h3>
@@ -184,27 +133,7 @@ Again, nice work! Feel free to reach out for any clarifications needed. -->
         </div>
     </div>
 </div>
-<!--TODO: Review this new tabs bootstrapped-->
 
-<h3>Community Partners</h3>
-
-<ul class="nav nav-tabs">
-    <li class="nav-item "><a class="nav-link active" href="#bootstrap" role="tab" data-toggle="tab">Bootstrap
-        Outfitters</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#git" role="tab" data-toggle="tab">Git Out Expeditions</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#mongo" role="tab" data-toggle="tab">Mongo Fly Shop</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#node" role="tab" data-toggle="tab">Node Outdoor Apparel</a>
-    </li>
-</ul>
-
-
-<!--TODO: Above is new tabs menu-->
 <footer class="site-footer">
     <div class="container">
         <div class="row">
@@ -245,17 +174,7 @@ Again, nice work! Feel free to reach out for any clarifications needed. -->
                     </div>
                 </div>
             </div>
-            <!--            <div class="col-4 col-sm-2 offset-1">-->
-            <!--                <h5>Links</h5>-->
-            <!--                <ul class="list-unstyled">-->
-            <!--                    <li><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home</a></li>-->
-            <!--                  -->
-            <!--                    <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-info fa-lg"></i> About</a>-->
-            <!--                    </li>-->
-            <!--                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Sites</a></li>-->
-            <!--                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-address-card fa-lg"></i> Contact</a>-->
-            <!--                </ul>-->
-            <!--            </div>-->
+<!--            TODO: Find out why Links is higher up on html webpage, correct position? -->
             <div class="col-4 col-sm-2 offset-1">
                 <h5>Links</h5>
                 <ul class="list-unstyled">
