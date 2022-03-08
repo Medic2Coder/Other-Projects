@@ -91,3 +91,25 @@ header h2 {
 .carousel {
     border: solid #5637DD;
 }
+
+.theme-dark {
+    /*--background-primary: #2f3136;*/
+    background-color: #2f3136;
+    color: #5dbcd2;
+    /*--background-primary-alt: #36393f;*/
+}
+
+/*}*/
+
+/*TODO: USE this Color Palette for Resume CSS*/
+
+
+/*.jumbotron {*/
+/*    background-image: url("../img/images/cybertron-person.png");*/
+/*    background-size: cover;*/
+/*    padding: 30px;*/
+/*    !*background-image: linear-gradient(to right,  #5637DD, #3046C5, #60106B);*!*/
+/*    !*background-image: linear-gradient(270deg,  #5637DD, #3046C5, #60106B);*!*/
+/*    color: white;*/
+/*    margin: 0;*/
+/*}*/
