@@ -2,7 +2,7 @@
   "name": "nucampsite",
   "version": "1.0.0",
   "description": "This is a website for the fictional campsites review site NuCamp.",
-  "main": "nucamp-index-version-2.html",
+  "main": "current-version-index.html",
   "scripts": {
     "lite": "lite-server",
     "start": "npm run lite",
