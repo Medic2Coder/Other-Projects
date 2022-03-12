@@ -35,11 +35,30 @@
         <!--        TODO: Keep this as it has same style of original and has data-toggle hover for info-->
 <!--        <a class="btn btn-info mt-4" style="float:right" href="#scroll-to-bottom" role="button" data-toggle="tooltip"-->
 <!--           data-placement="auto" data-html="true" title="Or call us at 1-206-555-1234">Reserve Campsite</a>-->
-        <a class="btn btn-info mt-4" style="float:right" href="#scroll-to-bottom" role="button" data-toggle="tooltip"
-           data-placement="auto" data-html="true" title="Or call us at 1-206-555-1234">Reserve Campsite</a>
+        <a class="btn btn-info mt-4" style="float:right" role="button" data-target="#reserveModal" data-toggle="modal">Reserve Campsite</a>
 
-
+        <!-- Modal -->
+        <div class="modal fade" id="reserveModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    
     <div class="container">
         <div class="row">
             <div class="col-4 col-sm-3 col-md-2 align-self-center">
@@ -69,7 +88,7 @@
         <!--   The creators of Font-Awesome prefer to use <i> for brevity, but <span> is more semantically correct.     -->
         <div class="collapse navbar-collapse" id="nucampNavbar">
             <ul class="navbar-nav">
-                <li class="nav-item active"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i> Home</a>
+                <li class="nav-item active"><a class="nav-link" href="nucamp-index-version-2.html"><i class="fa fa-home fa-lg"></i> Home</a>
                 </li>
                 <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-info fa-lg"></i> About</a>
                 </li>
@@ -238,7 +257,7 @@
                     <div class="col-4 col-sm-2 offset-1">
                         <h5>Links</h5>
                         <ul class="list-unstyled">
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="nucamp-index-version-2.html">Home</a></li>
                             <li><a href="aboutus.html">About</a></li>
                             <li><a href="#">Sites</a></li>
                             <li><a href="contactus.html">Contact</a></li>
