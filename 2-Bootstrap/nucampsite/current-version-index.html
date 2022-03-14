@@ -7,10 +7,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">    <!-- Additional CSS must be placed after Bootstrap CSS -->
 
     <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="css_for_bootstrap class/styles.scss">
     <link rel="stylesheet" href="css_for_bootstrap class/styles.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css"/>
-    <script src="js/scripts.js"></script>
+    <script src="JavaScript/nucamp-site-js.js"></script>
+
     <!-- endbuild -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
 
@@ -100,6 +102,7 @@
         </div>
     </div>
 </div>
+<!--Another navbar-->
 <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
     <a class="navbar-brand" href="#"><img alt= "coding bootcamp logo" src="img/logo.png" height="30" width="30" /></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
@@ -116,10 +119,18 @@
                 <li class="nav-item"><a class="nav-link" href="contactus.html"><i
                         class="fa fa-address-card fa-lg"></i> Contact</a></li>
             </ul>
-            <span class="navbar-text ml-auto">
-                <a data-toggle="modal" data-target="#loginModal"></a>
+<!--            <span class="navbar-text ml-auto">-->
+<!--                <a data-toggle="modal" data-target="#loginModal"></a>-->
 <!--                    <a id="loginButton">-->
 <!--                        <i class="fa fa-sign-in"> Login</i></a>-->
+<!--                TODO: test again/ complete-->
+<!--                          <a id="loginBtn">-->
+<!--                        <i class="fa fa-sign-in"> Login</i></a>-->
+<!--                </span>-->
+            <span class="navbar-text ml-auto">
+                    <a role="button" id="loginBtn">
+                        <i class="fa fa-sign-in"></i> Login
+                    </a>
                 </span>
         </div>
     </div>
@@ -305,12 +316,17 @@
         </div>
     </div>
     <footer>
+        <!-- build:js js/main.js -->
+
         <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
         <!--        external javascript or inline js that has jquery-->
         <script src="JavaScript/nucamp-site-js.js"></script>
+
+        <!-- endbuild -->
+
 
 
 

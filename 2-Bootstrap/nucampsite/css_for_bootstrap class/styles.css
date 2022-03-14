@@ -91,3 +91,17 @@ header h2 {
 .carousel {
     border: solid #5637DD;
 }
+
+.reserveModal {
+
+    background-color: teal;
+    color: white;
+}
+
+
+.loginModal {
+
+    /*background-color: color-mid;*/
+background-color: #6A6C6E;
+    color: white;
+}
