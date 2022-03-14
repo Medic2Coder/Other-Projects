@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "copyfiles": "^2.2.0",
+    "imagemin-cli": "^5.1.0",
+    "postcss-html": "^1.3.0",
+    "postcss-scss": "^4.0.3",
+    "rimraf": "^3.0.2",
+    "sass": "^1.49.9",
+    "sass-loader": "^10.2.1",
+    "usemin-cli": "^0.6.0"
+  }
+}

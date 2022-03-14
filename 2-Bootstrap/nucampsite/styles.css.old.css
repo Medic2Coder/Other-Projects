@@ -1,0 +1,93 @@
+/*Outline Trick, Keep this in for outline of all elements CSS (-Mark)*/
+/**  {*/
+/*outline: 1px dashed red;*/
+/*outline: 1px dashed lime;*/
+
+/*    background-color: lime*/
+/*}*/
+/*Saved for reference if changing back from accordion to tabs*/
+/*.tab-content {*/
+/*    border: 1px solid #DDD;*/
+/*    border-top: none;*/
+/*    padding: 10px;*/
+/*}*/
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Lobster", cursive;
+}
+
+h2 {
+    color: #3046C5;
+}
+
+header h2 {
+    color: #CEC8FF;
+}
+
+/*footer {*/
+/*    background-image: linear-gradient(#CEC8FF, white);*/
+/*    padding: 20px 0;*/
+/*}*/
+
+.site-footer{
+    background-image: linear-gradient(#CEC8FF, white);
+    padding: 20px 0;
+}
+
+.shadow {
+    /*filter: drop-shadow(.5rem .5rem 1rem #ff3503);*/
+    /*filter: drop-shadow(10rem 10rem 10rem #ff3503);*/
+    /*z-index: 99;*/
+    /*padding: 0;*/
+    /*border-bottom: 1px solid #767676;*/
+    /*box-shadow: .5rem .5rem 1rem #ff3503;*/
+    /*position: relative;*/
+}
+.jumbotron {
+    padding: 30px;
+    background-image: linear-gradient(to right,  #5637DD, #3046C5, #60106B);
+    /*background-image: linear-gradient(270deg,  #5637DD, #3046C5, #60106B);*/
+    color: white;
+    margin: 0;
+}
+
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.p {
+}
+
+.navbar {
+    background-color: #901CAD;
+}
+
+/*.jumbotron {*/
+/*    margin: 0;*/
+/*}*/
+
+/*.somethingnew {*/
+/*    margin: 40px;*/
+/*}*/
+
+
+/*TODO: Remember that the a is the alpha channel, and e.g., this 0.5 is half opacity*/
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+    border: solid #5637DD;
+}
