@@ -20,26 +20,35 @@
   //   </div>
   // );
 // }
-import HeartLogo from './heart.svg';
+
+// import HeartLogo from './assets/heart.svg';
 import './App.css';
+import Header from "./components/Header.js";
+import Heart from "./components/Heart.js";
+
 
 const message = 'cool as a cucumber';
 
-const Heart = (props) => {
-    return (
-        <div className='heart'>
-            <img className='heart-img' src={HeartLogo} alt='heart' />
-            <p className='heart-message'>{props.msg}</p>
-        </div>
-    );
-}
+// const Heart = (props) => {
+//     return (
+//         <div className='heart'>
+//             <img className='heart-img' src={HeartLogo} alt='heart' />
+//             <p className='heart-message'>{props.msg}</p>
+//         </div>
+//     );
+// }
 
 function App() {
-    return <Heart msg={message} />;
+
+    return (
+        <>
+            <Header />
+            <Heart msg={message} />
+        </>
+    )
 }
 
 export default App;
 
 
 
-          //notional bonus
