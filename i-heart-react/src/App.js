@@ -24,7 +24,7 @@
 // import HeartLogo from './assets/heart.svg';
 import './App.css';
 import Header from "./components/Header.js";
-import Heart from "./components/Heart.js";
+import HeartsList from "./components/HeartsList.js";
 
 
 const message = 'cool as a cucumber';
@@ -43,7 +43,7 @@ function App() {
     return (
         <>
             <Header />
-            <Heart msg={message} />
+            <HeartsList msg={message} />
         </>
     )
 }
