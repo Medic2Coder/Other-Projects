@@ -1,6 +1,5 @@
-//make sure to import the CampSiteInfo component
 import React from 'react';
-import CampSiteInfo from 'CampSiteInfo';
+import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
 
 
 //create a class component named CampsiteInfo
@@ -52,14 +51,26 @@ function render() {
 }
 
 //add a method named renderCampSite
-function renderCampSite() {
-//        variable named CampSite only parameter
-    let campsite = this.props.campsite;
-   if (this.props.campsite) {
-        this.setState({
-            campsite: this.props.campsite
-        });
+
+function RenderCampsite({campsite}) {
+    //        variable named CampSite only parameter
+//     let campsite = this.props.campsite;
+//    if (this.props.campsite) {
+//         this.setState({
+//             campsite: this.props.campsite
+//         });
+//     }
+    if (this.props.campsite) {
+        return (
+            <div className="container">
+                <div className="row">
+                    {this.renderCampsite(this.props.campsite)}
+                    {this.renderComments(this.props.campsite.comments)}
+                </div>
+            </div>
+        );
     }
+    return <div />;
          //return statement for this method with parentheses following the return. Inside the parentheses add a JSX div element with the classes col-md-5 and m-1
     return (
         <div className="col-md-5 m-1">
@@ -75,7 +86,7 @@ function renderCampSite() {
 }
 
 //method named renderComments with return statement
-function renderComments() {
+function RenderComments({comments}) {
     if (this.props.comments) {
         return this.props.comments.map(function(comment) {
             return (
@@ -97,7 +108,23 @@ function renderComments() {
             </div>
         );
     }
+    function CampsiteInfo(props) {
+        if (props.campsite) {
+            return (
+                <div className="container">
+                    <div className="row">
+                        <RenderCampsite campsite={props.campsite} />
+                        <RenderComments comments={props.campsite.comments} />
+                    </div>
+                </div>
+            );
+        }
+        return <div />;
+    }
 
 }
+    export default CampsiteInfo;
+
+
 
 
